@@ -2,6 +2,20 @@
 .format {
   display: flex;
   align-items: center;
+  padding: 0px;
+  margin: 0px;
+  transition: all 0.5s;
+}
+.format:hover {
+  transform: scale(1.1);
+}
+
+.format img {
+  height: 50px;
+  width: 45px;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
 }
 .format h1 {
   font-family: "Alfa Slab One", serif;
@@ -10,4 +24,16 @@
   font-size: 29px;
   letter-spacing: 3px;
   color: #f9d689;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
+@media (max-width: 640px) {
+  .format h1 {
+    font-size: 20px;
+  }
+  .format img {
+    height: 40px;
+    width: 35px;
+  }
 }

@@ -4,7 +4,7 @@ import HeaderNav from "./HeaderNav";
 const Header = () => {
   return (
     <>
-      <div>
+      <div className="bg-[#61481C] p-3">
         <HeaderNav />
       </div>
     </>

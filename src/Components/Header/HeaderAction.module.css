@@ -1,0 +1,13 @@
+.defaultStyle {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 640px) {
+  .login {
+    display: none;
+  }
+  .signIn {
+    display: none;
+  }
+}
