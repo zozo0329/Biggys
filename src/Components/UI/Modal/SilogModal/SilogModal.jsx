@@ -1,17 +1,29 @@
 import React from "react";
+import Silog from "../../../Main/SilogSection/Silog";
+import FoodItem from "../../../Main/SilogSection/FoodItem/FoodItem";
+import HeaderLogo from "../../../Header/HeaderLogo";
 
 const SilogModal = () => {
   return (
     <>
-      <dialog id="my_modal_2" className="modal">
-        <div className="modal-box">
-          <h3 className="font-bold text-lg">Hello!</h3>
-          <p className="py-4">Press ESC key or click outside to close</p>
+      <label htmlFor="silog-1">
+        <Silog />
+      </label>
+
+      <input type="checkbox" id="silog-1" className="modal-toggle" />
+      <div className="modal" role="dialog">
+        <div className="modal-box flex flex-col items-center gap-2 bg-[#eeeeee] ">
+          <div className="">
+            <HeaderLogo />
+          </div>
+          <div className=" flex flex-wrap gap-5 justify-center items-center bg-white   rounded-[10px] shadow">
+            <FoodItem />
+          </div>
         </div>
-        <form method="dialog" className="modal-backdrop">
-          <button>close</button>
-        </form>
-      </dialog>
+        <label className="modal-backdrop" htmlFor="silog-1">
+          Close
+        </label>
+      </div>
     </>
   );
 };

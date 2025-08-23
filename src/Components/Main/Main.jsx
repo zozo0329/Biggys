@@ -1,13 +1,12 @@
 import React from "react";
-import Silog from "./SilogSection/Silog";
 import MainStyle from "./Main.module.css";
-import Drinks from "./Drinks/Drinks";
+import SilogModal from "../UI/Modal/SilogModal/SilogModal";
+import DrinksModal from "../UI/Modal/DrinksModal/DrinksModal";
 const Main = () => {
   return (
     <div className={MainStyle.default}>
-      <Silog />
-
-      <Drinks />
+      <SilogModal />
+      <DrinksModal />
     </div>
   );
 };

@@ -7,11 +7,11 @@ const Silog = () => {
   return (
     <CategoryCard>
       <div
-        className="card bg-base-100 w-100 h-120 shadow-sm transition-all duration-500 hover:scale-105 cursor-pointer "
+        className="card bg-base-100 w-80 h-100 shadow-sm transition-all duration-500 hover:scale-105 cursor-pointer "
         onClick={showedHandler}
       >
         <figure>
-          <img className="w-100 h-100" src={Hotsilog} alt="Hotsilog" />
+          <img className="w-80 h-60" src={Hotsilog} alt="Hotsilog" />
         </figure>
         <div className="card-body">
           <h2 className="card-title font-bold">Silogs</h2>
