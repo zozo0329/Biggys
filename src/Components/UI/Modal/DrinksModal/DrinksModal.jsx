@@ -1,5 +1,7 @@
 import React from "react";
 import Drinks from "../../../Main/Drinks/Drinks";
+import DrinkItem from "../../../Main/Drinks/DrinkItem/DrinkItem";
+import HeaderLogo from "../../../Header/HeaderLogo";
 
 const DrinksModal = () => {
   return (
@@ -13,8 +15,12 @@ const DrinksModal = () => {
       <input type="checkbox" id="drinks-1" className="modal-toggle" />
       <div className="modal" role="dialog">
         <div className="modal-box flex flex-col items-center gap-2 bg-[#eeeeee]">
-          <h3 className="text-xl font-bold">OH WALANG LAMAN?</h3>
-          <h3 className="text-xl font-bold">SYEMPRE DI PA TAPOS GAGO.</h3>
+          <div>
+            <HeaderLogo />
+          </div>
+          <div>
+            <DrinkItem />
+          </div>
         </div>
         <label className="modal-backdrop" htmlFor="drinks-1">
           Close

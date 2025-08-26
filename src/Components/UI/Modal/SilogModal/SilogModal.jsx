@@ -13,7 +13,7 @@ const SilogModal = () => {
       <input type="checkbox" id="silog-1" className="modal-toggle" />
       <div className="modal" role="dialog">
         <div className="modal-box flex flex-col items-center gap-2 bg-[#eeeeee] ">
-          <div className="">
+          <div>
             <HeaderLogo />
           </div>
           <div className=" flex flex-wrap gap-5 justify-center items-center bg-white   rounded-[10px] shadow">
