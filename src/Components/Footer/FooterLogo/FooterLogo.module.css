@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+.HERO {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.defaultStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  transition: all 0.5s;
+}
+.defaultStyle img {
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
+.defaultStyle h1 {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 29px;
+  letter-spacing: 3px;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon img {
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+}
+@media (max-width: 640px) {
+  .defaultStyle h1 {
+    font-size: 20px;
+  }
+  .defaultStyle img {
+    height: 40px;
+    width: 35px;
+  }
+}
