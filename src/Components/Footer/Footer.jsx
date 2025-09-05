@@ -7,7 +7,7 @@ const Footer = () => {
     <div className=" flex flex-col justify-center  gap-5 p-10 bg-[#c2a25c]">
       <FooterLogo />
       <FooterDescription />
-      <p className="mt-10">© 2025 Biggy's</p>
+      <p className="mt-10 cursor-default">© 2025 Biggy's</p>
     </div>
   );
 };

@@ -20,9 +20,7 @@ const SilogModal = () => {
             <FoodItem />
           </div>
         </div>
-        <label className="modal-backdrop" htmlFor="silog-1">
-          Close
-        </label>
+        <label className="modal-backdrop" htmlFor="silog-1" />
       </div>
     </>
   );
