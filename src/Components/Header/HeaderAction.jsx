@@ -1,6 +1,5 @@
 import React from "react";
 import HeaderActionStyle from "./HeaderAction.module.css";
-import Cart from "../Cart/Cart";
 import LoginModal from "../UI/Modal/LoginModal/LoginModal";
 import CartModal from "../UI/Modal/CartModal/CartModal";
 const HeaderAction = () => {
@@ -14,9 +13,12 @@ const HeaderAction = () => {
       </div>
       <div className={HeaderActionStyle.signIn}>
         {/* <button>Sign-up for Free Delivery</button> */}
-        <button className="btn btn-outline text-[#f9d689] hover:bg-[#b1986281] border-[#f9d689]">
-          Sign-up for Free Delivery
-        </button>
+
+        <a href="iSignIn.html" target="_blank" title="Go to Sign In Page">
+          <button className="btn btn-outline text-[#f9d689] hover:bg-[#b1986281] border-[#f9d689]">
+            Sign-up for Free Delivery
+          </button>
+        </a>
       </div>
       <div className={HeaderActionStyle.cart}>
         <CartModal />

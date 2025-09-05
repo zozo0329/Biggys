@@ -1,6 +1,7 @@
 import React from "react";
 import PugIcon from "../../assets/PugIcon.png";
 import logoStyle from "./HeaderLogo.module.css";
+import Home from "../../App";
 const HeaderLogo = () => {
   const linkHandler = () => {
     console.log("Clicked");
